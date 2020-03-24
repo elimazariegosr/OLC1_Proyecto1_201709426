@@ -1,0 +1,7 @@
+digraph dot{
+rankdir=LR;
+ node[shape="circle"];
+label = "AFD de la expresion:";
+S0[label = "S0"];
+
+}

@@ -1,0 +1,38 @@
+digraph Grafica{
+graph [ratio=fill];
+node [label="\N", fontsize=15, shape=plaintext];
+graph [bb="0,0,352,154"];arset [label=<
+        <TABLE ALIGN="LEFT">
+<TR><TD>ESTADO</TD>
+<TD>todo</TD>
+<TD>"n"</TD>
+<TD>"r"</TD>
+<TD>"t"</TD>
+</TR><TR><TD>1,2,3,4,6,9,12,15</TD>
+<TD>5</TD>
+<TD>7</TD>
+<TD>10</TD>
+<TD>13</TD>
+</TR><TR><TD>5</TD>
+<TD>5</TD>
+<TD>7</TD>
+<TD>10</TD>
+<TD>13</TD>
+</TR><TR><TD>7</TD>
+<TD>5</TD>
+<TD>7</TD>
+<TD>10</TD>
+<TD>13</TD>
+</TR><TR><TD>10</TD>
+<TD>5</TD>
+<TD>7</TD>
+<TD>10</TD>
+<TD>13</TD>
+</TR><TR><TD>13</TD>
+<TD>5</TD>
+<TD>7</TD>
+<TD>10</TD>
+<TD>13</TD>
+</TR></TABLE>
+>,];
+}

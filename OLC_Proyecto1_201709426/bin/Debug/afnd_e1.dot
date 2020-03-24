@@ -1,0 +1,7 @@
+digraph G{ 
+rankdir=LR;
+ node[shape="circle"];S0-> S1[label="\"a\""];
+S1-> S2[label="\"b\""];
+S2[shape="doublecircle"]
+
+}

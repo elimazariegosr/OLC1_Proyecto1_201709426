@@ -1,0 +1,157 @@
+<ListaTokens><Token>
+<Nombre>letra</Nombre>
+<Valor>a</Valor>
+ <Fila> 334 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>letra</Nombre>
+<Valor>b</Valor>
+ <Fila> 334 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+<Token>
+<Nombre>letra</Nombre>
+<Valor>z</Valor>
+ <Fila> 346 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>digito</Nombre>
+<Valor></Valor>
+ <Fila> 346 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>letra</Nombre>
+<Valor>u</Valor>
+ <Fila> 361 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+<Token>
+<Nombre>letra</Nombre>
+<Valor>n</Valor>
+ <Fila> 361 </Fila>
+ <Columna> 4 </Columna>
+ </Token>
+<Token>
+<Nombre>"a"</Nombre>
+<Valor>a</Valor>
+ <Fila> 384 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 409 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"c"</Nombre>
+<Valor>c</Valor>
+ <Fila> 409 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+<Token>
+<Nombre>"d"</Nombre>
+<Valor>d</Valor>
+ <Fila> 409 </Fila>
+ <Columna> 4 </Columna>
+ </Token>
+<Token>
+<Nombre>"d"</Nombre>
+<Valor>d</Valor>
+ <Fila> 409 </Fila>
+ <Columna> 5 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 423 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"c"</Nombre>
+<Valor>c</Valor>
+ <Fila> 423 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+<Token>
+<Nombre>"d"</Nombre>
+<Valor>d</Valor>
+ <Fila> 423 </Fila>
+ <Columna> 4 </Columna>
+ </Token>
+<Token>
+<Nombre>"a"</Nombre>
+<Valor>a</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+<Token>
+<Nombre>"a"</Nombre>
+<Valor>a</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 4 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 5 </Columna>
+ </Token>
+<Token>
+<Nombre>"c"</Nombre>
+<Valor>c</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 6 </Columna>
+ </Token>
+<Token>
+<Nombre>"d"</Nombre>
+<Valor>d</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 7 </Columna>
+ </Token>
+<Token>
+<Nombre>"a"</Nombre>
+<Valor>a</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 8 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 9 </Columna>
+ </Token>
+<Token>
+<Nombre>"c"</Nombre>
+<Valor>c</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 10 </Columna>
+ </Token>
+<Token>
+<Nombre>"d"</Nombre>
+<Valor>d</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 11 </Columna>
+ </Token>
+<Token>
+<Nombre>"b"</Nombre>
+<Valor>b</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 12 </Columna>
+ </Token>
+<Token>
+<Nombre>"c"</Nombre>
+<Valor>c</Valor>
+ <Fila> 446 </Fila>
+ <Columna> 13 </Columna>
+ </Token>
+</ListaTokens>

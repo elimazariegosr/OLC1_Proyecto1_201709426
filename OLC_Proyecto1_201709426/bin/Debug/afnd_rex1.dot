@@ -1,0 +1,30 @@
+digraph G{ 
+rankdir=LR;
+ node[shape="circle"];S0-> S1[label="Epsilon"];
+S0-> S6[label="Epsilon"];
+S1-> S2[label="\"a\""];
+S2-> S3[label="Epsilon"];
+S2-> S5[label="Epsilon"];
+S3-> S4[label="\"b\""];
+S4-> S3[label="Epsilon"];
+S4-> S5[label="Epsilon"];
+S5-> S16[label="Epsilon"];
+S6-> S7[label="Epsilon"];
+S6-> S9[label="Epsilon"];
+S7-> S8[label="\"b\""];
+S8-> S11[label="Epsilon"];
+S9-> S10[label="Epsilon"];
+S10-> S11[label="Epsilon"];
+S11-> S12[label="\"a\""];
+S12-> S13[label="Epsilon"];
+S12-> S15[label="Epsilon"];
+S13-> S14[label="\"a\""];
+S14-> S13[label="Epsilon"];
+S14-> S15[label="Epsilon"];
+S15-> S16[label="Epsilon"];
+S16-> S17[label="\"b\""];
+S17-> S18[label="\"b\""];
+S18-> S19[label="\"a\""];
+S19[shape="doublecircle"]
+
+}

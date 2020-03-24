@@ -1,0 +1,12 @@
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\bin\Debug\OLC_Proyecto1_201709426.exe.config
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\bin\Debug\OLC_Proyecto1_201709426.exe
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\bin\Debug\OLC_Proyecto1_201709426.pdb
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.csprojAssemblyReference.cache
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.Form1.resources
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.Properties.Resources.resources
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.csproj.GenerateResource.cache
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.exe
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.pdb
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\bin\Debug\itextsharp.dll
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\bin\Debug\itextsharp.xml
+C:\Users\Eli Mazariegos\source\repos\OLC_Proyecto1_201709426\OLC_Proyecto1_201709426\obj\Debug\OLC_Proyecto1_201709426.csproj.CopyComplete
