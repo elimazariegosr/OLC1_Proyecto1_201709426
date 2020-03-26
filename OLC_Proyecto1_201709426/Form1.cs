@@ -79,63 +79,70 @@ namespace OLC_Proyecto1_201709426
         }
         private void btn_analizar_Click(object sender, EventArgs e)
         {
-            lista_tokens = new List<Token>();
-            lista_conjuntos = new Dictionary<string, List<Token>>();
-            lista_er = new Dictionary<string, List<Token>>();
-            lista_lex = new Dictionary<Token, string>();
-            com_afns.Items.Clear();
-            com_tb.Items.Clear();
-            com_afds.Items.Clear();
-            com_afds.Items.Add("AFD");
-            com_afns.Items.Add("AFD");
-            com_tb.Items.Add("AFD");
-            int select = tb_principal.SelectedIndex;
-            TextBox txt_actual = tb_principal.Controls[select].Controls[0] as TextBox;
-            if (txt_actual.TextLength > 0)
+            try
             {
-                Analizador_Lexico lexico = new Analizador_Lexico();
-                lexico.analizar(txt_actual.Text, lista_tokens, lista_errores);
-                Analizador_Sintactico sintactico = new Analizador_Sintactico(lista_tokens, lista_conjuntos, lista_er, lista_lex);
-                sintactico.analizar();
-                int index = 0;
-                while (index < lista_er.Count)
+                lista_tokens = new List<Token>();
+                lista_conjuntos = new Dictionary<string, List<Token>>();
+                lista_er = new Dictionary<string, List<Token>>();
+                lista_lex = new Dictionary<Token, string>();
+                com_afns.Items.Clear();
+                com_tb.Items.Clear();
+                com_afds.Items.Clear();
+                com_afds.Items.Add("AFD");
+                com_afns.Items.Add("AFD");
+                com_tb.Items.Add("AFD");
+                int select = tb_principal.SelectedIndex;
+                TextBox txt_actual = tb_principal.Controls[select].Controls[0] as TextBox;
+                if (txt_actual.TextLength > 0)
                 {
-                    Automata.AF af = new Automata.AF(lista_er.ElementAt(index).Value, lista_er.ElementAt(index).Key);
-                    automatas.Add(af);
-                    com_afns.Items.Add(lista_er.ElementAt(index).Key);
-                    com_tb.Items.Add(lista_er.ElementAt(index).Key);
-                    com_afds.Items.Add(lista_er.ElementAt(index).Key);
-                    index++;
+                    Analizador_Lexico lexico = new Analizador_Lexico();
+                    lexico.analizar(txt_actual.Text, lista_tokens, lista_errores);
+                    Analizador_Sintactico sintactico = new Analizador_Sintactico(lista_tokens, lista_conjuntos, lista_er, lista_lex);
+                    sintactico.analizar();
+                    int index = 0;
+                    while (index < lista_er.Count)
+                    {
+                        Automata.AF af = new Automata.AF(lista_er.ElementAt(index).Value, lista_er.ElementAt(index).Key);
+                        automatas.Add(af);
+                        com_afns.Items.Add(lista_er.ElementAt(index).Key);
+                        com_tb.Items.Add(lista_er.ElementAt(index).Key);
+                        com_afds.Items.Add(lista_er.ElementAt(index).Key);
+                        index++;
+                    }
+
                 }
+                Document doc = new Document();
+                PdfWriter.GetInstance(doc, new FileStream(nombre_archivo + ".pdf", FileMode.Create));
+                doc.Open();
+                Paragraph title = new Paragraph();
+                title.Font = FontFactory.GetFont(FontFactory.TIMES, 18f, BaseColor.BLUE);
+                title.Add("Tabla de tokens del archivo: " + nombre_archivo);
+                doc.Add(title);
+                doc.Add(new Paragraph(" "));
 
+                PdfPTable table = new PdfPTable(5);
+                table.AddCell("Id Token");
+                table.AddCell("Lexema");
+                table.AddCell("Descripcion");
+                table.AddCell("Fila");
+                table.AddCell("Columna");
+
+                for (int i = 0; i < lista_tokens.Count; i++)
+                {
+                    table.AddCell(String.Concat(lista_tokens.ElementAt(i).getId_token()));
+                    table.AddCell(lista_tokens.ElementAt(i).getLexema());
+                    table.AddCell(lista_tokens.ElementAt(i).getDescripcion());
+                    table.AddCell(String.Concat(lista_tokens.ElementAt(i).getFila()));
+                    table.AddCell(String.Concat(lista_tokens.ElementAt(i).getColumna()));
+
+                }
+                doc.Add(table);
+                doc.Close();
             }
-            Document doc = new Document();
-            PdfWriter.GetInstance(doc, new FileStream(nombre_archivo + ".pdf", FileMode.Create));
-            doc.Open();
-            Paragraph title = new Paragraph();
-            title.Font = FontFactory.GetFont(FontFactory.TIMES, 18f, BaseColor.BLUE);
-            title.Add("Tabla de tokens del archivo: " + nombre_archivo);
-            doc.Add(title);
-            doc.Add(new Paragraph(" "));
-
-            PdfPTable table = new PdfPTable(5);
-            table.AddCell("Id Token");
-            table.AddCell("Lexema");
-            table.AddCell("Descripcion");
-            table.AddCell("Fila");
-            table.AddCell("Columna");
-
-            for (int i = 0; i < lista_tokens.Count; i++)
-            {
-                table.AddCell(String.Concat(lista_tokens.ElementAt(i).getId_token()));
-                table.AddCell(lista_tokens.ElementAt(i).getLexema());
-                table.AddCell(lista_tokens.ElementAt(i).getDescripcion());
-                table.AddCell(String.Concat(lista_tokens.ElementAt(i).getFila()));
-                table.AddCell(String.Concat(lista_tokens.ElementAt(i).getColumna()));
-
+            catch (Exception) { 
+            
             }
-            doc.Add(table);
-            doc.Close();
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)

@@ -1,18 +1,6 @@
 <ListaTokens><Token>
 <Nombre>"#"</Nombre>
 <Valor>#</Valor>
- <Fila> 11 </Fila>
- <Columna> 2 </Columna>
- </Token>
-<Token>
-<Nombre>digitos</Nombre>
-<Valor></Valor>
- <Fila> 11 </Fila>
- <Columna> 2 </Columna>
- </Token>
-<Token>
-<Nombre>"#"</Nombre>
-<Valor>#</Valor>
  <Fila> 12 </Fila>
  <Columna> 2 </Columna>
  </Token>
@@ -26,31 +14,31 @@
 <Nombre>"#"</Nombre>
 <Valor>#</Valor>
  <Fila> 13 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>digitos</Nombre>
+<Valor></Valor>
+ <Fila> 13 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"#"</Nombre>
+<Valor>#</Valor>
+ <Fila> 14 </Fila>
  <Columna> 2 </Columna>
  </Token>
 <Token>
 <Nombre>LETRAS</Nombre>
 <Valor>D</Valor>
- <Fila> 13 </Fila>
+ <Fila> 14 </Fila>
  <Columna> 3 </Columna>
  </Token>
 <Token>
 <Nombre>digitos</Nombre>
 <Valor></Valor>
- <Fila> 13 </Fila>
+ <Fila> 14 </Fila>
  <Columna> 3 </Columna>
- </Token>
-<Token>
-<Nombre>"#"</Nombre>
-<Valor>#</Valor>
- <Fila> 14 </Fila>
- <Columna> 2 </Columna>
- </Token>
-<Token>
-<Nombre>digitos</Nombre>
-<Valor></Valor>
- <Fila> 14 </Fila>
- <Columna> 2 </Columna>
  </Token>
 <Token>
 <Nombre>"#"</Nombre>
@@ -68,30 +56,42 @@
 <Nombre>"#"</Nombre>
 <Valor>#</Valor>
  <Fila> 16 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>digitos</Nombre>
+<Valor></Valor>
+ <Fila> 16 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>"#"</Nombre>
+<Valor>#</Valor>
+ <Fila> 17 </Fila>
  <Columna> 2 </Columna>
  </Token>
 <Token>
 <Nombre>LETRAS</Nombre>
 <Valor>B</Valor>
- <Fila> 16 </Fila>
+ <Fila> 17 </Fila>
  <Columna> 3 </Columna>
  </Token>
 <Token>
 <Nombre>"#"</Nombre>
 <Valor>#</Valor>
- <Fila> 17 </Fila>
+ <Fila> 18 </Fila>
  <Columna> 3 </Columna>
  </Token>
 <Token>
 <Nombre>digitos</Nombre>
 <Valor></Valor>
- <Fila> 17 </Fila>
+ <Fila> 18 </Fila>
  <Columna> 3 </Columna>
  </Token>
 <Token>
 <Nombre>todo</Nombre>
 <Valor>A</Valor>
- <Fila> 24 </Fila>
+ <Fila> 25 </Fila>
  <Columna> 2 </Columna>
  </Token>
 </ListaTokens>

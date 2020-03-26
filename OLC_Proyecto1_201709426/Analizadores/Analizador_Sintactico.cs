@@ -110,11 +110,27 @@ namespace OLC_Proyecto1_201709426.Analizadores
             }
             if (lex_ex == 1)
             {
-                lista_lex.Add(list.ElementAt(0), nombre);
+                try
+                {
+                    lista_lex[list.ElementAt(0)] = nombre;
+                }
+                catch (Exception) {
+                    lista_lex.Add(list.ElementAt(0), nombre);
+
+                }
+                
             }
             else
             {
-                lista_er.Add(nombre, list);
+                try
+                {
+                    lista_er[nombre] = list;
+
+                }
+                catch (Exception) { 
+                    lista_er.Add(nombre, list);
+
+                }
             }
         }
 
@@ -170,8 +186,15 @@ namespace OLC_Proyecto1_201709426.Analizadores
             }
 
             list = conjunto(list);
-            lista_conjuntos.Add(nombre, list);
 
+            try
+            {
+                lista_conjuntos[nombre] = list;
+            }
+            catch (Exception) {
+                lista_conjuntos.Add(nombre, list);
+
+            }
         }
 
         public List<Token> conjunto(List<Token> list) {
