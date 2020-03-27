@@ -11,6 +11,18 @@
  <Columna> 15 </Columna>
  </Token>
 <Token>
+<Nombre>"jeje"</Nombre>
+<Valor>jeje</Valor>
+ <Fila> 29 </Fila>
+ <Columna> 19 </Columna>
+ </Token>
+<Token>
+<Nombre>"FEKA MASTER"</Nombre>
+<Valor>FEKA MASTER</Valor>
+ <Fila> 33 </Fila>
+ <Columna> 12 </Columna>
+ </Token>
+<Token>
 <Nombre>VOCALES_may</Nombre>
 <Valor>AEI</Valor>
  <Fila> 34 </Fila>
@@ -31,7 +43,19 @@
 <Token>
 <Nombre>"ESTA COCHA "</Nombre>
 <Valor>ESTA COCHA </Valor>
+ <Fila> 38 </Fila>
+ <Columna> 12 </Columna>
+ </Token>
+<Token>
+<Nombre>"ESTA COCHA "</Nombre>
+<Valor>ESTA COCHA </Valor>
  <Fila> 39 </Fila>
  <Columna> 12 </Columna>
+ </Token>
+<Token>
+<Nombre>simbolos</Nombre>
+<Valor>!</Valor>
+ <Fila> 39 </Fila>
+ <Columna> 13 </Columna>
  </Token>
 </ListaTokens>

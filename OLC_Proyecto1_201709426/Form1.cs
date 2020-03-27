@@ -309,7 +309,14 @@ namespace OLC_Proyecto1_201709426
                         aceptado_f = false;
                     }
                         tmp = null;
-                    
+                    if (aceptado)
+                    {
+                        tokens = tokens + "<Token>\n<Nombre>" + nombre_token + "</Nombre>\n<Valor>" + token_reconcido +
+                        "</Valor>\n <Fila> " + fila + " </Fila>\n <Columna> " + index + " </Columna>\n </Token>\n";
+                        token_reconcido = "";
+                        Console.WriteLine(lexema[index]);//agregacion de errores
+
+                    }
                 }
                 else {
                     if (aceptado)
