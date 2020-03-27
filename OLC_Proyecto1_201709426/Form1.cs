@@ -261,6 +261,8 @@ namespace OLC_Proyecto1_201709426
         
         Boolean analizar_lexema(String expresion, String lexema, int fila)
         {
+            char cr = '\r';
+            lexema = lexema.Replace(String.Concat(cr),"");
             index = 1;
             Boolean aceptado = false;
             Boolean aceptado_f = true;
