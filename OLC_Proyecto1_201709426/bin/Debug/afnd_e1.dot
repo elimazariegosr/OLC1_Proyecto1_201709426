@@ -1,8 +1,0 @@
-digraph G{ 
-rankdir=LR;
- node[shape="circle"];S0-> S1[label="\"	\""];
-S1-> S2[label="\"
-\""];
-S2[shape="doublecircle"]
-
-}

@@ -1,1 +1,16 @@
-<ListaErrores></ListaErrores>
+<ListaErrores><Error>
+<Valor>a</Valor>
+<Fila>4</Fila>
+<Columna>1</Columna>
+</Error>
+<Error>
+<Valor>s</Valor>
+<Fila>4</Fila>
+<Columna>2</Columna>
+</Error>
+<Error>
+<Valor>d</Valor>
+<Fila>4</Fila>
+<Columna>3</Columna>
+</Error>
+</ListaErrores>
