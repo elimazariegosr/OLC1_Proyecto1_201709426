@@ -4,8 +4,9 @@ node [label="\N", fontsize=15, shape=plaintext];
 graph [bb="0,0,352,154"];arset [label=<
         <TABLE ALIGN="LEFT">
 <TR><TD>ESTADO</TD>
-<TD>"a"</TD>
-<TD>"b"</TD>
+<TD>"	"</TD>
+<TD>"
+"</TD>
 </TR><TR><TD>0</TD>
 <TD>1</TD>
 <TD>--</TD>

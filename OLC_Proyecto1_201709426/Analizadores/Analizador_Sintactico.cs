@@ -36,7 +36,7 @@ namespace OLC_Proyecto1_201709426.Analizadores
                     consumir();
                     definicion_conjunto();
                 }
-                if (lista_tokens.ElementAt(index).getId_token() == 774)
+                else if (lista_tokens.ElementAt(index).getId_token() == 774)
                 {
                     if (lista_tokens.ElementAt(index + 1).getId_token() == 58)
                     {
@@ -50,10 +50,14 @@ namespace OLC_Proyecto1_201709426.Analizadores
                     }
 
                 }
-                if (lista_tokens.ElementAt(index).getId_token() == 778 || lista_tokens.ElementAt(index).getId_token() == 779)
+                else if (lista_tokens.ElementAt(index).getId_token() == 778 || lista_tokens.ElementAt(index).getId_token() == 779)
                 {
                     consumir();
                 }
+                else {
+                    consumir();
+                }
+
 
             }
         }

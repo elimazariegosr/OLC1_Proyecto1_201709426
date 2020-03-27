@@ -5,9 +5,10 @@ graph [bb="0,0,352,154"];arset [label=<
         <TABLE ALIGN="LEFT">
 <TR><TD>ESTADO</TD>
 <TD>todo</TD>
-<TD>"n"</TD>
-<TD>"r"</TD>
-<TD>"t"</TD>
+<TD>"
+"</TD>
+<TD>""</TD>
+<TD>"	"</TD>
 </TR><TR><TD>1,2,3,4,6,9,12,15</TD>
 <TD>5</TD>
 <TD>7</TD>

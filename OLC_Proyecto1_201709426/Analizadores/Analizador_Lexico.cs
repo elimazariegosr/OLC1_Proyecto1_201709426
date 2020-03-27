@@ -45,7 +45,11 @@ namespace OLC_Proyecto1_201709426.Analizadores
                         else if (texto.ElementAt(i) == 't')
                         {
                             lexema = lexema + "\t";
+                        } else if(texto.ElementAt(i) == 'r')
+                        {
+                            lexema = lexema + "\r";
                         }
+
                         else { 
                             lexema = lexema + texto.ElementAt(i);
                         }
@@ -63,7 +67,14 @@ namespace OLC_Proyecto1_201709426.Analizadores
                         {
                             //lexema = lexema + texto.ElementAt(i);
                             i++;
-                            lexema = lexema + texto.ElementAt(i);
+                            char c = es_caracter(texto.ElementAt(i));
+                            if (c != ' ')
+                            {
+                                lexema = lexema + c;
+                            }
+                            else { 
+                                lexema = lexema + texto.ElementAt(i);
+                            }
                             try
                             {
                                 ch_int_siguiente = texto.ElementAt(i + 1);//asignado caracter en la posicion j + 1
@@ -226,6 +237,19 @@ namespace OLC_Proyecto1_201709426.Analizadores
             }
 
 
+        }
+
+        char es_caracter(char c) {
+            switch (c) {
+                case 'n':
+                    return '\n';
+                case 't':
+                    return '\t';
+                case 'r':
+                    return '\r';
+               
+            }
+            return ' ';
         }
         public int transicion(int ch_int)
         {// metodo 

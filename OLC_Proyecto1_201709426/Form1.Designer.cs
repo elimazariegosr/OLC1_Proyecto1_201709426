@@ -135,19 +135,19 @@
             // cargarThompsonToolStripMenuItem
             // 
             this.cargarThompsonToolStripMenuItem.Name = "cargarThompsonToolStripMenuItem";
-            this.cargarThompsonToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.cargarThompsonToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.cargarThompsonToolStripMenuItem.Text = "Cargar Thompson";
             // 
             // guardarTokensToolStripMenuItem
             // 
             this.guardarTokensToolStripMenuItem.Name = "guardarTokensToolStripMenuItem";
-            this.guardarTokensToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.guardarTokensToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.guardarTokensToolStripMenuItem.Text = "Guardar Tokens";
             // 
             // guardarErroresToolStripMenuItem
             // 
             this.guardarErroresToolStripMenuItem.Name = "guardarErroresToolStripMenuItem";
-            this.guardarErroresToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.guardarErroresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.guardarErroresToolStripMenuItem.Text = "Guardar Errores";
             // 
             // reportesToolStripMenuItem
@@ -161,8 +161,8 @@
             // errorLexicoToolStripMenuItem
             // 
             this.errorLexicoToolStripMenuItem.Name = "errorLexicoToolStripMenuItem";
-            this.errorLexicoToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.errorLexicoToolStripMenuItem.Text = "Error Lexico";
+            this.errorLexicoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.errorLexicoToolStripMenuItem.Text = "Analisis Lexico";
             // 
             // openFileDialog1
             // 

@@ -10,13 +10,14 @@ S3-> S4[label="Epsilon"];
 S3-> S6[label="Epsilon"];
 S4-> S5[label="todo"];
 S5-> S8[label="Epsilon"];
-S6-> S7[label="\"n\""];
+S6-> S7[label="\"
+\""];
 S7-> S8[label="Epsilon"];
 S8-> S11[label="Epsilon"];
-S9-> S10[label="\"r\""];
+S9-> S10[label="\"\""];
 S10-> S11[label="Epsilon"];
 S11-> S14[label="Epsilon"];
-S12-> S13[label="\"t\""];
+S12-> S13[label="\"	\""];
 S13-> S14[label="Epsilon"];
 S14-> S1[label="Epsilon"];
 S14-> S15[label="Epsilon"];

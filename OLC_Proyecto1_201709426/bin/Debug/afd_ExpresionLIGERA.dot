@@ -1,0 +1,33 @@
+digraph dot{
+rankdir=LR;
+ node[shape="circle"];
+label = "AFD de la expresion:";
+S0[label = "S0"];
+S0->S1[label="\"GUATEMALA\""];
+S1[label = "S1"];
+S1->S2[label="\"COVID\""];
+S2[label = "S2"];
+S2->S3[label="\"jeje\""];
+S3[shape = "doublecircle"];S2->S4[label="\"a\""];
+S3[label = "S3"];
+S3->S5[label="\"jeje\""];
+S5[shape = "doublecircle"];S3->S6[label="\"a\""];
+S4[label = "S4"];
+S4->S7[label="\"b\""];
+S5[label = "S5"];
+S5->S5[label="\"jeje\""];
+S5[shape = "doublecircle"];S5->S6[label="\"a\""];
+S6[label = "S6"];
+S6->S8[label="\"b\""];
+S7[label = "S7"];
+S7->S9[label="BINARIO"];
+S9[shape = "doublecircle"];S8[label = "S8"];
+S8->S10[label="BINARIO"];
+S10[shape = "doublecircle"];S9[label = "S9"];
+S9->S5[label="\"jeje\""];
+S5[shape = "doublecircle"];S9->S6[label="\"a\""];
+S10[label = "S10"];
+S10->S5[label="\"jeje\""];
+S5[shape = "doublecircle"];S10->S6[label="\"a\""];
+
+}

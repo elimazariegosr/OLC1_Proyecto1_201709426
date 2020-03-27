@@ -1,0 +1,13 @@
+<ListaTokens><Token>
+<Nombre>letra</Nombre>
+<Valor>a</Valor>
+ <Fila> 12 </Fila>
+ <Columna> 2 </Columna>
+ </Token>
+<Token>
+<Nombre>letra</Nombre>
+<Valor>b</Valor>
+ <Fila> 12 </Fila>
+ <Columna> 3 </Columna>
+ </Token>
+</ListaTokens>
